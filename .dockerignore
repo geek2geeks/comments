@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Development files
+.git/
+.gitignore
+.env.local
+.env.test
+*.log
+logs/*.log
+*.db-shm
+*.db-wal
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
+docs/
+
+# Testing
+tests/
+test_*.py
+*_test.py
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Development Docker files
+Dockerfile
